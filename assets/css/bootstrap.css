@@ -6,37 +6,37 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
-  --bs-purple: #6f42c1;
-  --bs-pink: #d63384;
-  --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
-  --bs-green: #198754;
-  --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
-  --bs-black: #000;
-  --bs-white: #fff;
-  --bs-gray: #6c757d;
-  --bs-gray-dark: #343a40;
-  --bs-gray-100: #f8f9fa;
-  --bs-gray-200: #e9ecef;
-  --bs-gray-300: #dee2e6;
-  --bs-gray-400: #ced4da;
-  --bs-gray-500: #adb5bd;
-  --bs-gray-600: #6c757d;
-  --bs-gray-700: #495057;
-  --bs-gray-800: #343a40;
-  --bs-gray-900: #212529;
-  --bs-primary: #0d6efd;
-  --bs-secondary: #6c757d;
-  --bs-success: #198754;
-  --bs-info: #0dcaf0;
-  --bs-warning: #ffc107;
-  --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
-  --bs-dark: #212529;
+  --bs-blue: #4A90E2; /* أزرق هادئ */
+  --bs-indigo: #8A2BE2; /* بنفسجي مائل للأزرق */
+  --bs-purple: #9B59B6; /* بنفسجي فاتح */
+  --bs-pink: #FF6F91; /* وردي مشرق */
+  --bs-red: #E74C3C; /* أحمر دافئ */
+  --bs-orange: #F39C12; /* برتقالي فاتح */
+  --bs-yellow: #F1C40F; /* أصفر ذهبي */
+  --bs-green: #27AE60; /* أخضر زاهي */
+  --bs-teal: #1ABC9C; /* أزرق مائل للأخضر */
+  --bs-cyan: #76D7C4; /* سماوي ناعم */
+  --bs-black: #2C3E50; /* أسود رمادي */
+  --bs-white: #ECF0F1; /* أبيض ناعم */
+  --bs-gray: #95A5A6; /* رمادي فاتح */
+  --bs-gray-dark: #7F8C8D; /* رمادي داكن */
+  --bs-gray-100: #F4F6F7; /* رمادي فاتح جدًا */
+  --bs-gray-200: #D5DBDB; /* رمادي فاتح */
+  --bs-gray-300: #BFC9CA; /* رمادي متوسط */
+  --bs-gray-400: #AAB7B8; /* رمادي أغمق قليلاً */
+  --bs-gray-500: #839192; /* رمادي معتدل */
+  --bs-gray-600: #707B7C; /* رمادي داكن */
+  --bs-gray-700: #566573; /* رمادي أغمق */
+  --bs-gray-800: #34495E; /* رمادي غامق جدًا */
+  --bs-gray-900: #2C3E50; /* رمادي أسود */
+  --bs-primary: #4A90E2; /* اللون الأساسي أزرق */
+  --bs-secondary: #95A5A6; /* لون ثانوي رمادي فاتح */
+  --bs-success: #27AE60; /* لون النجاح أخضر */
+  --bs-info: #76D7C4; /* لون المعلومات سماوي */
+  --bs-warning: #F39C12; /* لون التحذير برتقالي */
+  --bs-danger: #E74C3C; /* لون الخطر أحمر */
+  --bs-light: #F4F6F7; /* لون فاتح جدًا */
+  --bs-dark: #2C3E50; /* لون داكن */
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
