@@ -43,18 +43,6 @@
   --bs-link-hover-color: #1A73E8; /* أزرق فاتح عند التمرير */
 }
 
-/* إعدادات الخلفية */
-body {
-  background-color: var(--bs-body-bg);
-  color: var(--bs-body-color);
-  font-family: var(--bs-font-sans-serif);
-}
-
-/* روابط */
-a {
-  color: var(--bs-link-color);
-}
-
 a:hover {
   color: var(--bs-link-hover-color);
 }
