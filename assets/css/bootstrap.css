@@ -13,7 +13,7 @@
   --bs-red: #E74C3C; /* أحمر دافئ */
   --bs-orange: #F39C12; /* برتقالي فاتح */
   --bs-yellow: #F1C40F; /* أصفر ذهبي */
-  --bs-green: #27AE60; /* أخضر زاهي */
+  --bs-green: #FF6347; /* استبدال الأخضر بأحمر طماطم */
   --bs-teal: #1ABC9C; /* أزرق مائل للأخضر */
   --bs-cyan: #76D7C4; /* سماوي ناعم */
   --bs-black: #2C3E50; /* أسود رمادي */
@@ -31,20 +31,20 @@
   --bs-gray-900: #2C3E50; /* رمادي أسود */
   --bs-primary: #4A90E2; /* اللون الأساسي أزرق */
   --bs-secondary: #95A5A6; /* لون ثانوي رمادي فاتح */
-  --bs-success: #27AE60; /* لون النجاح أخضر */
+  --bs-success: #FF6347; /* استبدال الأخضر بأحمر طماطم */
   --bs-info: #76D7C4; /* لون المعلومات سماوي */
   --bs-warning: #F39C12; /* لون التحذير برتقالي */
   --bs-danger: #E74C3C; /* لون الخطر أحمر */
   --bs-light: #F4F6F7; /* لون فاتح جدًا */
   --bs-dark: #2C3E50; /* لون داكن */
-  --bs-primary-rgb: 13, 110, 253;
-  --bs-secondary-rgb: 108, 117, 125;
-  --bs-success-rgb: 25, 135, 84;
-  --bs-info-rgb: 13, 202, 240;
-  --bs-warning-rgb: 255, 193, 7;
-  --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 248, 249, 250;
-  --bs-dark-rgb: 33, 37, 41;
+  --bs-primary-rgb: 74, 144, 226;
+  --bs-secondary-rgb: 149, 165, 166;
+  --bs-success-rgb: 255, 99, 71; /* لون النجاح استبدل بالأحمر الطماطمي */
+  --bs-info-rgb: 118, 215, 196;
+  --bs-warning-rgb: 243, 156, 18;
+  --bs-danger-rgb: 231, 76, 60;
+  --bs-light-rgb: 244, 246, 247;
+  --bs-dark-rgb: 44, 62, 80;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
