@@ -43,10 +43,6 @@
   --bs-link-hover-color: #1A73E8; /* أزرق فاتح عند التمرير */
 }
 
-a:hover {
-  color: var(--bs-link-hover-color);
-}
-
 *,
 *::before,
 *::after {
