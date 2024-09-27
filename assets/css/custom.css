@@ -1,10 +1,10 @@
-﻿/*body*/
+/*body*/
 *{
     margin: 0;
     padding: 0;
 }
 ::selection{
-  background-color: #198754;
+  background-color: #00b4d8; /* أزرق فاتح */
   color: #fff;
 }
 body::-webkit-scrollbar {
@@ -15,7 +15,7 @@ body::-webkit-scrollbar-track {
   border-radius: 10px;
 }
 body::-webkit-scrollbar-thumb {
-  background-color: #198754;
+  background-color: #00b4d8; /* أزرق فاتح */
   border-radius: 10px;
 }
 body{
@@ -30,7 +30,7 @@ a{
   -o-transition: all 250ms linear;
 }
 a:hover{
-  color: rgb(230, 62, 62) !important;
+  color: #ff6392 !important; /* وردي هادئ */
   transition: all 0.5s;
 }
 #totop {
@@ -43,7 +43,7 @@ a:hover{
   z-index: 210;
   border: none;
   outline: none; 
-  background-color: #198754;
+  background-color: #00b4d8; /* أزرق فاتح */
   cursor: pointer; 
   border-radius: 40px;
   -moz-transition: all 250ms linear;
@@ -56,7 +56,7 @@ a:hover{
     color: #fff;
 }
 #totop:hover {
-    background-color: rgb(230, 62, 62);
+    background-color: #ff6392; /* وردي هادئ */
     transition: all 0.5s;
 }
 #rasha{
@@ -88,58 +88,58 @@ footer .btn-group a:hover{
 }
 /*dark-mode*/
 .dark-theme .quran-ari{
-  background-color: #282C34 !important;
-  color: #ABB2BF;
+  background-color: #1e1e2e !important;
+  color: #c9c9d3;
 }
 .dark-theme .quran-ari img{
   filter: invert(100%);
 }
 .dark-theme .text-success{
-  color: #ABB2BF !important;
+  color: #c9c9d3 !important;
 }
 .dark-theme .text-one{
-  color: #ABB2BF !important;
+  color: #c9c9d3 !important;
 }
 .dark-theme a:hover{
-  color: rgb(230, 62, 62) !important;
+  color: #ff6392 !important; /* وردي هادئ */
   transition: all 0.5s;
 }
 .dark-theme .table > :not(caption) > * > * {
-  color: #ABB2BF !important;
-  border-color: #ABB2BF !important;
+  color: #c9c9d3 !important;
+  border-color: #c9c9d3 !important;
 }
 .dark-theme .border {
-  border-color: #ABB2BF !important;
+  border-color: #c9c9d3 !important;
 }
 .dark-theme footer .btn-group .btn-outline-success{
-  color: #ABB2BF;
-  border-color: #ABB2BF;
+  color: #c9c9d3;
+  border-color: #c9c9d3;
 }
 .dark-theme footer .btn-group .btn-outline-success:hover , .dark-theme footer .btn-group .btn-success{
-  color: #282C34 !important;
-  background: #ABB2BF;
-  border-color: #ABB2BF;
+  color: #1e1e2e !important;
+  background: #c9c9d3;
+  border-color: #c9c9d3;
 }
 .btn-group .btn-outline-success:hover, .btn-group .btn-success, .btn-group .btn-success:hover{
-  color: #198754 !important;
+  color: #00b4d8 !important; /* أزرق فاتح */
   background: 	#ffffff;
   border-color: #c9cdd0;
 }
 .btn-group .btn-outline-success{
-  color: #198754 !important;
+  color: #00b4d8 !important; /* أزرق فاتح */
   background: 	#f8f9fa;
   border-color: #c9cdd0;
 }
 .text-quran {
-        color:  #28241e;
+        color:  #1e1e2e;
 }
 .dark-theme .text-quran {
         color: #e1e1ff;
 }
 .dark-theme footer .btn-group .btn-outline-success{
-  color: #ABB2BF !important;
-  background: 	#282C34;
-  border-color: #ABB2BF;
+  color: #c9c9d3 !important;
+  background: 	#1e1e2e;
+  border-color: #c9c9d3;
 }
 /*dark-mode*/
 
@@ -202,6 +202,3 @@ footer .btn-group a:hover{
     border-bottom-right-radius: 0px !important;
   }
 }
-
-
-
