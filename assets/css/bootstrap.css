@@ -13,11 +13,11 @@
   --bs-red: #E74C3C; /* أحمر دافئ */
   --bs-orange: #F39C12; /* برتقالي فاتح */
   --bs-yellow: #F1C40F; /* أصفر ذهبي */
-  --bs-green: #FF6347; /* استبدال الأخضر بأحمر طماطم */
+  --bs-green: #FF6347; /* أحمر طماطم بدلاً من الأخضر */
   --bs-teal: #1ABC9C; /* أزرق مائل للأخضر */
   --bs-cyan: #76D7C4; /* سماوي ناعم */
-  --bs-black: #2C3E50; /* أسود رمادي */
-  --bs-white: #ECF0F1; /* أبيض ناعم */
+  --bs-black: #000000; /* أسود */
+  --bs-white: #FFFFFF; /* أبيض */
   --bs-gray: #95A5A6; /* رمادي فاتح */
   --bs-gray-dark: #7F8C8D; /* رمادي داكن */
   --bs-gray-100: #F4F6F7; /* رمادي فاتح جدًا */
@@ -31,47 +31,32 @@
   --bs-gray-900: #2C3E50; /* رمادي أسود */
   --bs-primary: #4A90E2; /* اللون الأساسي أزرق */
   --bs-secondary: #95A5A6; /* لون ثانوي رمادي فاتح */
-  --bs-success: #FF6347; /* استبدال الأخضر بأحمر طماطم */
+  --bs-success: #FF6347; /* أحمر طماطم بدلاً من الأخضر */
   --bs-info: #76D7C4; /* لون المعلومات سماوي */
   --bs-warning: #F39C12; /* لون التحذير برتقالي */
   --bs-danger: #E74C3C; /* لون الخطر أحمر */
-  --bs-light: #F4F6F7; /* لون فاتح جدًا */
-  --bs-dark: #2C3E50; /* لون داكن */
-  --bs-primary-rgb: 74, 144, 226;
-  --bs-secondary-rgb: 149, 165, 166;
-  --bs-success-rgb: 255, 99, 71; /* لون النجاح استبدل بالأحمر الطماطمي */
-  --bs-info-rgb: 118, 215, 196;
-  --bs-warning-rgb: 243, 156, 18;
-  --bs-danger-rgb: 231, 76, 60;
-  --bs-light-rgb: 244, 246, 247;
-  --bs-dark-rgb: 44, 62, 80;
-  --bs-white-rgb: 255, 255, 255;
-  --bs-black-rgb: 0, 0, 0;
-  --bs-body-color-rgb: 33, 37, 41;
-  --bs-body-bg-rgb: 255, 255, 255;
-  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: var(--bs-font-sans-serif);
-  --bs-body-font-size: 1rem;
-  --bs-body-font-weight: 400;
-  --bs-body-line-height: 1.5;
-  --bs-body-color: #212529;
-  --bs-body-bg: #fff;
-  --bs-border-width: 1px;
-  --bs-border-style: solid;
-  --bs-border-color: #dee2e6;
-  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
-  --bs-border-radius: 0.375rem;
-  --bs-border-radius-sm: 0.25rem;
-  --bs-border-radius-lg: 0.5rem;
-  --bs-border-radius-xl: 1rem;
-  --bs-border-radius-2xl: 2rem;
-  --bs-border-radius-pill: 50rem;
-  --bs-link-color: #0d6efd;
-  --bs-link-hover-color: #0a58ca;
-  --bs-code-color: #d63384;
-  --bs-highlight-bg: #fff3cd;
+  --bs-light: #2C3E50; /* لون فاتح داكن */
+  --bs-dark: #000000; /* لون داكن أسود */
+  --bs-body-bg: #000000; /* خلفية سوداء */
+  --bs-body-color: #FFFFFF; /* نص أبيض */
+  --bs-link-color: #4A90E2; /* أزرق */
+  --bs-link-hover-color: #1A73E8; /* أزرق فاتح عند التمرير */
+}
+
+/* إعدادات الخلفية */
+body {
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  font-family: var(--bs-font-sans-serif);
+}
+
+/* روابط */
+a {
+  color: var(--bs-link-color);
+}
+
+a:hover {
+  color: var(--bs-link-hover-color);
 }
 
 *,
